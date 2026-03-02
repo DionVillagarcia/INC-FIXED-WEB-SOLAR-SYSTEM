@@ -123,7 +123,7 @@ html {
   font-weight:bold;
 }
 .planet-row {
-  display: flex;          /* ✅ this makes boxes go side by side */
+  display: flex;         
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
@@ -186,10 +186,10 @@ html {
   color: white;
 }
 .sun {
-  width: 250px;         /* ✅ larger but still fits inside box */
+  width: 250px;        
   height: auto;
   display: block;
-  margin: 0 auto;       /* ✅ keeps it centered */
+  margin: 0 auto;       
   position: static;
   
 }
