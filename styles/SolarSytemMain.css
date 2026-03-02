@@ -1,0 +1,202 @@
+body {
+    background-image: url("../images/main-body-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.navbar{
+  background: steelblue;
+  font-family: verdana;
+  padding: 15px;
+ 
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo{
+  font-size: 35px;
+  font-family: verdana, arial;
+  font-weight: 600;
+  color: white;
+}
+.Nav-buttons{
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  padding: 10px;
+  width: 90px;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 
+  backrgound-color 0.5s,
+  color 0.5s,
+  scale 1s;
+}
+
+.Nav-buttons:hover{
+  background-color: white;
+  color: black;
+  scale: 2px
+}
+.Nav-buttons:active{
+  opacity: .7;
+  scale: 1.1;
+}
+
+.Header{
+  font-size: 100px;
+  font-family: Verdana;
+  Color: yellow;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.Sub-header{
+  font-size: 30px;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+.text-intro{
+  font-family: verdana;
+  font-size: 30px;
+  color: white;
+  max-width: 1400px;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: steelblue;
+  box-shadow: 10px 10px black;
+  border-style: dotted;
+  border-radius: 25px;
+  width: 90%;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.text-intro:hover{
+  background-color: rgb(49, 107, 155);
+  scale: 1.1;
+}
+.main-information{
+  background-color: steelblue;
+  border-style: dotted;
+  max-width: 1600px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: auto;
+  min-height: unset;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+  width: 90%;
+  font-family: verdana;
+  border-radius: 25px;
+
+}
+.infohead{
+  font-size: 35px;
+  color: white;
+  margin: 10px;
+  font-weight:bold;
+}
+.info-subhead{
+  font-size: 50px;
+  color: white;
+  margin: 10px;
+  font-weight:bold;
+}
+.planet-row {
+  display: flex;          /* ✅ this makes boxes go side by side */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.images-info {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: orange;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 20px;
+  padding-bottom: 400px;
+  box-shadow: 10px 10px yellow;
+  overflow: hidden;
+}
+
+.images-info2{
+  width: 1267px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: ;
+  justify-content: center;
+  text-align: center;
+  background-color: orange;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 10px 10px yellow;
+  overflow: hidden;
+}
+
+.image-info-head{
+  text-align: left;
+  font-size: 50px;
+  margin: 0px;
+  color: white;
+}
+.image-info-body{
+  font-size: 40px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.image-info-stats{
+  font-size: 30px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.margin{
+  margin: 30px;
+  color: white;
+}
+.sun {
+  width: 250px;         /* ✅ larger but still fits inside box */
+  height: auto;
+  display: block;
+  margin: 0 auto;       /* ✅ keeps it centered */
+  position: static;
+  
+}
+.standard{
+  font-size: 40px;
+  font-family: verdana;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
